@@ -1,6 +1,10 @@
 import math
-
 from com.ff.forecasting.Person import Person
+import numpy
+import six
+print numpy.__path__
+
+print(six.__version__)
 
 str = "12"
 sum = int(str)
@@ -10,7 +14,7 @@ print(pi)
 print("Hello", "World")
 t = (11, 22, 33, 44, 55)
 for i in t:
-    print(i, end=" ")
+    print(i)
 friends = {
     'tom': '111-222-333',
     'jerry': '666-33-111'
